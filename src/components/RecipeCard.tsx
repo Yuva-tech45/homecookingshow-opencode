@@ -12,7 +12,7 @@ const CATEGORY_STYLES: Record<string, string> = {
   Lunch: "bg-olive text-cream-light",
   Dinner: "bg-walnut text-turmeric",
   Snacks: "bg-mustard text-walnut",
-  Desserts: "bg-wood text-cream-light",
+  Desserts: "bg-terracotta text-cream-light",
 };
 
 export default function RecipeCard({ recipe }: { recipe: Recipe }) {

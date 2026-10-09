@@ -255,7 +255,7 @@ export default function RecipeDetailPage() {
                         type="checkbox"
                         checked={done}
                         onChange={() => toggleIngredient(idx)}
-                        className="mt-0.5 h-4.5 w-4.5 h-4 w-4 shrink-0 accent-[#40583A]"
+                        className="mt-0.5 h-4.5 w-4.5 h-4 w-4 shrink-0 accent-[#56634A]"
                       />
                       <span className={done ? "text-charcoal/45 line-through" : "text-charcoal"}>
                         <strong className="font-bold text-walnut">

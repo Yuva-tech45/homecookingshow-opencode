@@ -16,8 +16,8 @@ body {
 }
 
 ::selection {
-  background: #e1b52a;
-  color: #281914;
+  background: #c5a04a;
+  color: #302019;
 }
 
 @layer components {

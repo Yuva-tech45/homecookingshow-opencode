@@ -81,19 +81,6 @@ export default function HomePage() {
                 Plan your week
               </Link>
             </div>
-            <dl className="mt-8 grid max-w-md grid-cols-3 gap-4 border-t border-cream-light/15 pt-6">
-              {[
-                ["12", "tested recipes"],
-                ["5", "categories"],
-                ["7-day", "meal planner"],
-              ].map(([n, l]) => (
-                <div key={l}>
-                  <dt className="sr-only">{l}</dt>
-                  <dd className="font-heading text-2xl font-extrabold text-turmeric">{n}</dd>
-                  <dd className="text-xs font-semibold uppercase tracking-wider text-cream-light/60">{l}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
           <div className="relative">
             <div className="absolute -inset-3 rounded-[2rem] bg-turmeric/25 blur-xl" aria-hidden />
@@ -186,7 +173,7 @@ export default function HomePage() {
                   type="checkbox"
                   checked={vegOnly}
                   onChange={(e) => setVegOnly(e.target.checked)}
-                  className="h-4 w-4 accent-[#40583A]"
+                  className="h-4 w-4 accent-[#56634A]"
                 />
                 <Leaf className="h-4 w-4 text-olive" aria-hidden />
                 Vegetarian only

@@ -288,7 +288,7 @@ export default function KitchenCompanionPage() {
                           type="checkbox"
                           checked={done}
                           onChange={() => toggleChecked(line.key)}
-                          className="h-4 w-4 shrink-0 accent-[#40583A]"
+                          className="h-4 w-4 shrink-0 accent-[#56634A]"
                           aria-label={line.display}
                         />
                         <span className={done ? "line-through" : ""}>{line.display}</span>
@@ -311,7 +311,7 @@ export default function KitchenCompanionPage() {
                             type="checkbox"
                             checked={done}
                             onChange={() => toggleChecked(c.id)}
-                            className="h-4 w-4 shrink-0 accent-[#40583A]"
+                            className="h-4 w-4 shrink-0 accent-[#56634A]"
                             aria-label={`Custom item ${c.name}`}
                           />
                           <span className={done ? "line-through" : ""}>
